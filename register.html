@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="sitenav">
+                <a class="site-logo" href="index.html">
+                    <img class="logo-img" src="./img/logo-svg.svg" alt="Logo image" width="101px" height="40px">
+                </a>
+                <ul class="sitenav-list">
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">
+                            Services
+                        </a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">
+                            About 
+                        </a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">
+                            Contacts    
+                        </a>
+                    </li>
+                    <a class="sitenav-button" href="#">
+                        Log in
+                    </a>
+                    <a class="sitenav-button" href="#">
+                        Open an account
+                    </a>
+                    <a class="sitenav-button" href="#">
+                        EN
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-container container">
+            <div class="site-form-wrapper">
+                <form action="https://echo.htmlacademy.ru" method="post" class="site-form">
+                    <img class="form-logo" src="./img/logo-svg.svg" alt="Logo img" width="101px" height="40px">
+                    <div class="form-text">
+                        <h2 class="form-title">
+                            Welcome to ByTrend!
+                        </h2>
+                        <span class="from-question">
+                            Already have an account?
+                        </span>
+                        <a class="form-log-in" href="#">
+                            Log in
+                        </a>
+                    </div>
+                    <div class="form-email">
+                        <label for="email">
+                            Email <span>*</span>
+                        </label>
+                        <input type="email" name="email" id="email" placeholder="Email address" required>
+                    </div>
+                    <div class="form-phone-number">
+                        <label for="phone-number">
+                            Phone <span>*</span>
+                        </label>
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="Your phone number" required>
+                    </div>
+                    <div class="address">
+                        <div class="country">
+                            <label for="country">
+                                Country <span>*</span>
+                            </label>
+                            <select name="country" id="country">
+                                <option value="Russia">Russia</option>
+                                <option value="England">England</option>
+                                <option value="Uzbekistan">Uzbekistan</option>
+                            </select>
+                        </div>
+                        <div class="city">
+                            <label for="city">
+                                City <span>*</span> 
+                            </label> 
+                            <input type="text" name="city" id="city" placeholder="Name of the city" required>
+                        </div>
+                    </div>
+                    <div class="form-password">
+                        <label for="password">
+                            Password <span>*</span> 
+                            <img src="./img/settings.svg" alt="">
+                        </label>
+                        <input type="password" name="password" id="password" placeholder="************" required>
+                    </div>
+                    <div class="form-confirm-password">
+                        <label for="confirm-password">
+                            Confirm password <span>*</span>
+                        </label>
+                        <input type="password" name="password" id="password" placeholder="Password again" required  >
+                    </div>
+                    <button class="form-button">
+                        <div class="form-button-text">
+                            Register
+                        </div>
+                    </button>
+                    <p class="form-bottom-text">
+                        By signing up, you are agreeing to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy.</a>   
+                    </p>
+                </form>
+            </div>  
+        </div>
+    </main>
+</body>
+</html>

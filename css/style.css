@@ -1,0 +1,299 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html{
+    height: 100%;
+  }
+
+  body{
+    height: 100%;
+    font-family: "Roboto";
+    background-color: #F4F8FA;
+  }
+
+  .container{
+    max-width: 100%;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  ul,ol{
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+.header{
+    background-color: #fff;
+    padding: 8px 0;
+}
+
+.sitenav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sitenav-list{
+    display: flex;
+    align-items: center;
+}
+
+.sitenav-item{
+    margin-right: 50px;
+}
+
+.sitenav-link{
+    color: #000;
+    opacity: 0.85;
+}
+
+.sitenav-button{
+    border: 1px solid #D9D9D9;
+    color: #000;
+    opacity: 0.65;
+    padding: 2px 9px;
+}
+
+.sitenav-button:not(:last-child){
+    margin-right: 24px;
+}
+
+.main-container{
+    text-align: center;
+}
+
+.site-form{
+    width: 496px;
+    background-color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    margin-top: 24px;
+    box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04), 0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+    margin-bottom: 64px;
+}
+
+.form-logo{
+    margin-bottom: 24px;
+}
+
+.form-text{
+    margin-bottom: 56px;
+}
+
+.form-title{
+    font-weight: 600;
+    font-size: 29px;
+    opacity: 0.85;
+    margin-bottom: 16px;
+}
+
+.from-question{
+    line-height: 26px;
+    font-size: 16px;
+    margin-right: 14px;
+}
+
+.form-log-in{
+    color: #01bab3;
+    text-decoration: underline;
+}
+
+.form-name{
+    display: flex;
+    text-align: left;
+}
+
+.form-control:not(:last-child){
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+.form-control label{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.form-control span{
+    color: #01bab3;
+}
+
+#first-name{
+    border: 1px solid #D9D9D9;
+    padding: 10px 16px;
+    margin-top: 8px;
+}
+
+#first-name::placeholder{
+    color: #444150;
+}
+
+#last-name{
+    border: 1px solid #D9D9D9;
+    padding: 10px 16px;
+    margin-top: 8px;
+}
+
+#last-name::placeholder{
+    color: #444150;
+}
+
+.form-date{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-date label{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.form-date span{
+    color: #01bab3;
+}
+
+#birth-date{
+    border: 1px solid #D9D9D9;
+    padding: 10px 16px;
+    margin-bottom: 24px;
+}
+
+.form-gender{
+    text-align: left;
+}
+
+.gender{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.gender span{
+    color: #01bab3;
+}
+
+.form-gender-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.female{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 16px 14px;
+    border: 1px solid #D9D9D9;
+    margin-right: 16px; 
+}
+
+.male{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 16px 14px;
+    border: 1px solid #D9D9D9;
+}
+
+#gender{
+    margin-right: 8px;
+}
+
+.form-skype{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-skype label{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#skype{
+    border: 1px solid #D9D9D9;
+    padding: 10px 16px;
+    margin-bottom: 24px;
+}
+
+#skype::placeholder{
+    color: #444150;
+}
+
+.form-promo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-promo label{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#promo{
+    border: 1px solid #D9D9D9;
+    padding: 10px 16px;
+    margin-bottom: 24px;
+}
+
+#promo::placeholder{
+    color: #444150;
+}
+
+.form-button{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #01bab3;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.form-button-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-button-img{
+    margin-left: 16px;
+}
+
+.site-bottom{
+    color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}

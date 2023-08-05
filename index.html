@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By Trend</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="sitenav">
+                <a class="site-logo" href="index.html">
+                    <img class="logo-img" src="./img/logo-svg.svg" alt="Logo image" width="101px" height="40px">
+                </a>
+                <ul class="sitenav-list">
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">
+                            Services
+                        </a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">
+                            About 
+                        </a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a class="sitenav-link" href="#">
+                            Contacts    
+                        </a>
+                    </li>
+                    <a class="sitenav-button" href="#">
+                        Log in
+                    </a>
+                    <a class="sitenav-button" href="#">
+                        Open an account
+                    </a>
+                    <a class="sitenav-button" href="#">
+                        EN
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-container container">
+            <div class="site-form-wrapper">
+                <form action="https://echo.htmlacademy.ru" method="post" class="site-form">
+                    <img class="form-logo" src="./img/logo-svg.svg" alt="Logo img" width="101px" height="40px">
+                    <div class="form-text">
+                        <h2 class="form-title">
+                            Welcome to ByTrend!
+                        </h2>
+                        <span class="from-question">
+                            Already have an account?
+                        </span>
+                        <a class="form-log-in" href="#">
+                            Log in
+                        </a>
+                    </div>
+                    <div class="form-control-wrapper">
+                        <div class="form-name">
+                            <div class="form-control">
+                                <label for="first-name">
+                                    First name <span>*</span>
+                                </label>
+                                <input type="text" name="first-name" id="first-name" placeholder="First name" required>
+                            </div>
+                            <div class="form-control">
+                                <label for="last-name">
+                                    Last name <span>*</span>
+                                </label>
+                                <input type="text" name="last-name" id="last-name" placeholder="Last name" required>
+                            </div>
+                        </div>
+                        <div class="form-date">
+                            <label for="birth-date">
+                                Birth date <span>*</span>
+                            </label>
+                            <input type="date" name="birth-date" id="birth-date" required>
+                        </div>
+                        <div class="form-gender">
+                            <label class="gender" for="gender">
+                                    Gender <span>*</span>
+                            </label>
+                            <div class="form-gender-wrapper">
+                                <div class="female">
+                                    <input type="radio" name="gender" id="gender" required>
+                                    <p>Female</p>
+                                </div>
+                                <div class="male">
+                                    <input type="radio" name="gender" id="gender" required>
+                                    <p>Male</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-skype">
+                            <label for="skype">
+                                Skype
+                            </label>
+                            <input type="email" name="skype" id="skype" placeholder="Your login Skype" required>
+                        </div>
+                        <div class="form-promo">
+                            <label for="promo">
+                                Promo
+                            </label>
+                            <input type="text" name="promo" id="promo" placeholder="Your promo" required>
+                        </div>
+                    </div>
+                    <button class="form-button">
+                        <div class="form-button-text">
+                            Continue
+                            <img class="form-button-img" src="./img/arrow-right.svg" alt="Right arrow">
+                        </div>
+                    </button>
+                </form>
+            </div>
+            <span class="site-bottom">
+                ©2020 All Rights Reserved. Lorem Technologies, Inc.
+            </span>
+        </div>
+    </main>
+</body>
+</html>
